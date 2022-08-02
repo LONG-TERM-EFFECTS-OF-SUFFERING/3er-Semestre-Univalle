@@ -1,0 +1,13 @@
+Numero Cotizacion  : 5
+Fecha Realización  : 7-6-2022
+Funcionario .....  : Juanito
+Cliente .........  : pepito
+Email  ..........  : pep2012@gmail.com
+Cantidad Archivos  : 2
+Tipo de Documento  : Básico
+Tipo de Entega     : Un día
+Cotizacion Dolares : 10,66
+Cotizacion Pesos   : 45.855,20
+Lista de Archivos  : 2
+	mapa.txt con 24,00 Palabras
+	pruebaTexto.txt con 100,00 Palabras

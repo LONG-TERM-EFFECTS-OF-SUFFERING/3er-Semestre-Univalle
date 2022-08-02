@@ -1,0 +1,14 @@
+Numero Cotizacion  : 2
+Fecha Realización  : 25-6-2019
+Funcionario .....  : Daniel
+Cliente .........  : Daniel
+Email  ..........  : dane
+Cantidad Archivos  : 3
+Tipo de Documento  : Básico
+Tipo de Entega     : Un día
+Cotización Dolares : 84,28
+Cotización Pesos   : 105.350,00
+Lista de Archivos  : 3
+	RECAUDOS.A2001.0411.TXT con 24,00 Palabras
+	malware.txt con 937,00 Palabras
+	pepitoPrueba.txt con 19,00 Palabras

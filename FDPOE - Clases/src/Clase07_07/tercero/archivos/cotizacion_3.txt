@@ -1,0 +1,12 @@
+Numero Cotizacion  : 3
+Fecha Realización  : 26-6-2019
+Funcionario .....  : Pepito Perez
+Cliente .........  : Yovany Romo
+Email  ..........  : yovaromo@gmail.com
+Cantidad Archivos  : 1
+Tipo de Documento  : Avanzado
+Tipo de Entega     : Un día
+Cotización Dolares : 4,46
+Cotización Pesos   : 15.624,00
+Lista de Archivos  : 1
+	datos.txt con 36,00 Palabras

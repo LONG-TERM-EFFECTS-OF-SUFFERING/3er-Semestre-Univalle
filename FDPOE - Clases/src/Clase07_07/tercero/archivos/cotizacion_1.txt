@@ -1,0 +1,12 @@
+Numero Cotizacion  : 1
+Fecha Realización  : 25-6-2019
+Funcionario .....  : Yovany Romo
+Cliente .........  : jair
+Email  ..........  : jair
+Cantidad Archivos  : 1
+Tipo de Documento  : Básico
+Tipo de Entega     : Un día
+Cotización Dolares : 19,01
+Cotización Pesos   : 44.569,07
+Lista de Archivos  : 1
+	Chat Davivienda.txt con 221,00 Palabras

@@ -1,5 +1,4 @@
 /*
-
                  *´¨) 
                 ¸.•´ ¸.•´¸.•*´¨) ¸.•*¨) 
                 (¸.•´ (¸.•` ¤ Brandon Calderón Prieto  
@@ -11,7 +10,6 @@
     | \     )|_        Ingeniería de sistemas
    /`\_`>  <_/ \
    \__/'---'\__/
-
  */
 
 package vista;
@@ -29,8 +27,8 @@ import javax.swing.JTextField;
 import modelo.Triangulo;
 
 
-public class VentanaTriangulo extends JFrame implements ActionListener{ // Con los implemnts se de debe implementar todos los metodos de ese implement
-    // Los nombres deben ser indicativos (el codigo se documenta desde su escritura)
+public class VentanaTriangulo extends JFrame implements ActionListener{ // Con los implements se de debe implementar todos los métodos de ese implement
+    // Los nombres deben ser indicativos (el código se documenta desde su escritura)
     private JLabel     lblBase;
     private JLabel     lblAltura;
     private JLabel     lblArea;
@@ -43,7 +41,7 @@ public class VentanaTriangulo extends JFrame implements ActionListener{ // Con l
     
     public VentanaTriangulo(){
         iniciarComponentes();   
-        setSize(350,150);
+        setSize(350, 150);
         setVisible(true);
         setLocationRelativeTo(null);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // Que se termine la app cuando se cierre la ventana
@@ -63,20 +61,18 @@ public class VentanaTriangulo extends JFrame implements ActionListener{ // Con l
         
         txtArea  = new JTextField(15);
         
-        
         txtArea.setEnabled(false);
         txtArea.setBackground(Color.YELLOW);
         txtArea.setDisabledTextColor(Color.red);
         txtArea.setHorizontalAlignment(JTextField.RIGHT);
         
-      
         btnCalcular = new JButton("Calcular");
         btnNuevo = new JButton("Cancelar");
         
         
         contenedorPpal = getContentPane();
         
-        contenedorPpal.setLayout(new GridLayout(4, 2));
+        contenedorPpal.setLayout(new GridLayout(4, 3)); // Filas x columnas
         
         contenedorPpal.add(lblBase);
         contenedorPpal.add(txtBase);
@@ -91,19 +87,18 @@ public class VentanaTriangulo extends JFrame implements ActionListener{ // Con l
         contenedorPpal.add(btnCalcular);
         
         
-        // Asignando al boton el Listener
+        // Asignando al botón el Listener
         btnCalcular.addActionListener(this); // This porque el actionPerformed esta dentro de la misma clase
         btnNuevo.addActionListener(this);
-                   
     }
 
-    @Override // Indica que ese metodo se esta sobrescribiendo
+    @Override // Indica que ese método se esta sobrescribiendo
     public void actionPerformed(ActionEvent ae) {
         // getSource devuelve el nombre del objeto al que le paso algo
         if(ae.getSource() == btnCalcular){
             
             // 1. Captura de  datos de las cajas de texto
-            // parsefloat tranforma de string a float
+            // parsefloat transforma de string a float
             float base = Float.parseFloat(txtBase.getText());
             float altura = Float.parseFloat(txtAltura.getText());
             
@@ -112,12 +107,12 @@ public class VentanaTriangulo extends JFrame implements ActionListener{ // Con l
             // 3. Calcular el area
             miTriangulo.calcularArea();
             // 4. Desplegar el resultado
-            // Si se le suma comilla o un string se convierte en string
+            // Si se le suma comillas se convierte en string
             txtArea.setText(miTriangulo.getArea() + "");
             
         } else {
             JOptionPane.showMessageDialog(this,
-                "Ocurrio un error en un control de la ventana");
+                "Ocurrió un error en un control de la ventana");
         }   
     }    
 }

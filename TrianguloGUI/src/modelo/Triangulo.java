@@ -63,10 +63,9 @@ public class Triangulo {
     public void setArea(float area) {
         this.area = area;
     }
-    
+
     public void calcularArea(){        
-        this.area = (getBase() * getAltura()) / 2.0f; // Para un triangulo rectangulo
+        this.area = (getBase() * getAltura()) / 2.0f; // Para un triangulo rectángulo
         // Es 2.0 por la peculiaridad como se comportan los floats
     }
-    
 }

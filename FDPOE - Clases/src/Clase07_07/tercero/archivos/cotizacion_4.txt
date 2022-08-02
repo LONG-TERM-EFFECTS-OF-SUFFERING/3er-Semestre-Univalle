@@ -1,0 +1,13 @@
+Numero Cotizacion  : 4
+Fecha Realización  : 26-6-2019
+Funcionario .....  : Julanito
+Cliente .........  : Pedrito
+Email  ..........  : Perez
+Cantidad Archivos  : 2
+Tipo de Documento  : Básico
+Tipo de Entega     : Un día
+Cotización Dolares : 24,08
+Cotización Pesos   : 78.270,84
+Lista de Archivos  : 2
+	Emiro20160208.txt con 26,00 Palabras
+	Necesidades de Preescolar y Baby Materno.txt con 254,00 Palabras
